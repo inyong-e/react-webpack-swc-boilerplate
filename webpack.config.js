@@ -17,17 +17,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_module/, // node module 폴더는 babel 컴파일에서 제외
+        test: /\.jsx?$/ ,
+        exclude: /(node_modules)/,
         use: {
-          loader: 'babel-loader',
-          options:{
-            presets: [
-              "@babel/preset-env", ["@babel/preset-react", {"runtime": "automatic"}]
-            ]
-          }          
+            loader: "swc-loader"
         }
-      },
+      }
     ]
   },
   plugins: [

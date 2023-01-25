@@ -1,0 +1,15 @@
+{
+  "jsc":{
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true
+    },
+    "transform": {
+    "react":{
+      "runtime": "automatic",
+    },
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    }
+  }
+}
