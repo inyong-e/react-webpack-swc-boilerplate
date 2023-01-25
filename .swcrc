@@ -5,11 +5,9 @@
       "jsx": true
     },
     "transform": {
-    "react":{
-      "runtime": "automatic",
-    },
-      "legacyDecorator": true,
-      "decoratorMetadata": true
+      "react":{
+        "runtime": "automatic"
+      }
     }
   }
 }
