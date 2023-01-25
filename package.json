@@ -1,5 +1,6 @@
 {
-  "name": "lite-editor-web",
+  "name": "react-webpack-swc",
+  "author": "ethan Jung",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
